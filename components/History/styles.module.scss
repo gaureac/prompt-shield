@@ -1,0 +1,66 @@
+.title {
+  margin: 0 0 16px 0;
+  font-size: var(--text-sm);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-dark-gray);
+}
+
+.historyList {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.historyEntry {
+  padding: 12px;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
+
+.historyDate {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.badge {
+  background: var(--color-yellow);
+  color: var(--color-burgundy);
+  font-size: 12px;
+  border-radius: 4px;
+  padding: 2px 5px;
+  cursor: default;
+
+  &:hover {
+    background: var(--color-dark-yellow);
+  }
+}
+
+.timeoutBadge {
+  color: #666;
+  cursor: default;
+  padding: 2px 5px;
+  font-size: 12px;
+}
+
+.historyEmails {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.historyEmail {
+  background: #e3f2fd;
+  color: #1976d2;
+  padding: 2px 8px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-family: monospace;
+}
+
+.emptyHistory {
+  text-align: center;
+  font-style: italic;
+  padding: 40px 20px;
+}
